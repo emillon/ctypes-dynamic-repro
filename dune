@@ -1,0 +1,11 @@
+(library
+ (name a)
+ (foreign_stubs
+  (language c)
+  (names a))
+ (modules))
+
+(test
+ (name main)
+ (modules main)
+ (libraries ctypes.foreign a))
