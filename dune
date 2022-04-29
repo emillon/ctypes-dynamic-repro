@@ -7,7 +7,7 @@
 
 (test
  (name main)
- (link_flags :standard -Wl,--export-all-symbols)
+ (link_flags :standard -ccopt -Wl,--export-all-symbols)
  (modules main)
  (package ctypes-dynamic-repro)
  (libraries ctypes.foreign a))
