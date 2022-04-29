@@ -4,4 +4,6 @@
 
 (package
  (name ctypes-dynamic-repro)
+ (maintainers me)
+ (synopsis "repro case")
  (depends ctypes ctypes-foreign))
