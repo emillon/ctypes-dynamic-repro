@@ -8,4 +8,5 @@
 (test
  (name main)
  (modules main)
+ (package ctypes-dynamic-repro)
  (libraries ctypes.foreign a))
