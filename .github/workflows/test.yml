@@ -34,7 +34,7 @@ jobs:
           ocaml-compiler: ${{ matrix.ocaml-compiler }}
 
       - name: Test
-        run: opam install dune ctypes
+        run: opam install dune ctypes ctypes-foreign
 
       - name: Test
         run: opam exec -- dune runtest
